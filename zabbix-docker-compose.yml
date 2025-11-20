@@ -1,6 +1,6 @@
 networks:
   zabbix-network:
-    external: true
+    driver: bridge
 
 volumes:
   zabbix-postgres:
